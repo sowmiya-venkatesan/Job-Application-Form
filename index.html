@@ -64,11 +64,15 @@
             </div> 
             <br> 
             
-            <!-- Mobile Number-->
+            <!--DOB-->
             <div class="form-group">
-              <label id="age-label" for="mobno">Age<span class="clue">(optional)</span></label>
-              <input type="number" name="age" id="number" min="18" max="65" class="form-control" placeholder="Enter your Age"/>
+              <label id="age-label" for="dateOfBirth">Date of birth</label>
+                <input type="date" id="dateOfBirth" class="field date-field dob-field" min="1996-01-01" max="2005-09-18"  required/>
+                    <span class="message"></span>
             </div> 
+        
+        <span class="message"></span>
+    </div>
             
             <!-- Year of Graduation-->
             <div class="form-group">
@@ -87,10 +91,10 @@
                 <p>Which type of job are you interested in?</p>
                 <select id="dropdown" name="role" class="form-control" required>
                     <option disabled selected value>Select role</option>
-                    <option value="student">Internship</option>
-                    <option value="learner">Part-Time</option>
-                    <option value="job">Full-Time</option>
-                    <option value="others">Freelancing</option>
+                    <option value="2022">Internship</option>
+                    <option value="2021">Part-Time</option>
+                    <option value="2020" value="2021">Full-Time</option>
+                    <option value="2022">Freelancing</option>
                  </select>
             </div>
               

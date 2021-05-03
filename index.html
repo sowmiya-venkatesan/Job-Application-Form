@@ -67,10 +67,23 @@
             <!-- Mobile Number-->
             <div class="form-group">
               <label id="age-label" for="mobno">Age<span class="clue">(optional)</span></label>
-              <input type="number" name="age" id="number" min="18" max="65" class="form-control" placeholder="Enter your "Age"" required/>
+              <input type="number" name="age" id="number" min="18" max="65" class="form-control" placeholder="Enter your Age"/>
             </div> 
             
-              
+            <!-- Year of Graduation-->
+            <div class="form-group">
+              <label id="graduation-label" for="graduation">Year Of Graduation</label>
+              <select id="dropdown" name="role"class="form-control" required>
+                    <option disabled selected value>Select Year of Graduation</option>
+                    <option value="pass out">2020</option>
+                    <option value="final year">2021</option>
+                    <option value="pre- final year">2022</option>
+                    <option value="sec year">2023</option>
+               </select>
+            </div> 
+            
+                
+        
             <!--Submit Button -->
             <div class="form-group">
               <button type="submit" id="submit" class="submit-button">Submit</button>

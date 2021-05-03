@@ -121,7 +121,7 @@
             </div> 
             
            <!-- Confirmation-->
-            <div class="form-group">
+           <div class="form-group">
               <p> Please check the following if correct: <span class="clue">(Check all that apply)</span></p>
               <label>
                   <input name="prefer" value="criminal-records-verification" type="checkbox" class="input-checkbox" />
@@ -132,8 +132,25 @@
                <label>
                   <input name="prefer" value="uphold-behaviour" type="checkbox" class="input-checkbox" />
               I will uphold the company standards and work ethics.</label>
-               </div>
-        
+            </div>
+             
+           <!--University Name with fixed value - since it is only for sastra university-->
+           <div class="form-group">
+               <p>Place of University</p>
+                <input type="text" name="name" id="name" class="form-control"value="SASTRA DEEMED UNIVERSITY" disabled/>
+            </div>
+            
+            <!--Place of University-->
+           <div class="form-group">
+               <p>Place of University</p>
+               <label>
+                <input name="user-recommend" value="Main campus" type="radio" class="input-radio"/>
+               Main campus - Thanjavur</label>
+               <label>
+                <input name="user-recommend" value="src" type="radio" class="input-radio"/>
+              SRC - Kumbakonam</label>
+             </div> 
+              
             <!--Submit Button -->
             <div class="form-group">
               <button type="submit" id="submit" class="submit-button">Submit</button>
